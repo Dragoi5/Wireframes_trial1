@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wireframes_trial1</string>
+<!--    Profile Information-->
+    <string name="username">Codey the coder</string>
+    <string name="email">email@gmail.com</string>
+    <string name="profilePicSource">src</string>
+    <string name="longestStreak">55</string>
+    <string name="league">Bronze</string>
+    <string name="currentLevel">99</string>
+    <string name="totalPlaytime">99999</string>
+    <string name="profileAlerts">5</string>
+    <string name="currentChallenges">5</string>
+</resources>

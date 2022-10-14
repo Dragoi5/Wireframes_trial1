@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Change after implimenting firebase
     public boolean tempLoginCode(EditText username, EditText password){
-        Log.v("User",username.getText().toString()+" = aa "+username.getText().toString().equals("aa"));
+
         // Try login code - change with firebase later
         if(username.getText().toString().equals("aa")){
             if(password.getText().toString().equals("a")){

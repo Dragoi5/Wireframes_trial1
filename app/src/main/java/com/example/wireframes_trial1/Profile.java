@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Profile extends AppCompatActivity {
 
@@ -18,8 +19,10 @@ public class Profile extends AppCompatActivity {
         ImageView resources = findViewById(R.id.resourcesIcon);
         ImageView blog = findViewById(R.id.blogIcon);
         ImageView profile = findViewById(R.id.profileIcon);
+        TextView profileAlerts = findViewById(R.id.profileAlerts);
 
         Helper startup = new Helper("home",this,home,resources,blog,profile);
+        profileAlerts.setText("");
         startup.navigationBar("Home");
     }
 

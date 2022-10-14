@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/currentChallenges"
         android:textColor="#FF0000"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/icon_1"
         app:layout_constraintTop_toTopOf="@+id/icon_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

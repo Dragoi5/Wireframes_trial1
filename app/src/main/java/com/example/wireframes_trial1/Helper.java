@@ -77,7 +77,7 @@ public class Helper {
             profile.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(current, MainActivity.class);
+                    Intent intent = new Intent(current, Profile.class);
                     current.startActivity(intent);
                 }
             });

@@ -24,8 +24,13 @@ public class Helper {
         navigationBar(page);
     }
 
+    /**
+     * starts intent for new activity for bottom navigation bar
+     * @param currentPage a letter/string value for the current page
+     */
     public void navigationBar(String currentPage){
         // All strings must be in lower case
+        String[] other = {"na","none","nan","n"};
         String[] homeNames = {"home","h"};
         String[] resourcesName = {"resources","r","resource"};
         String[] blogNames = {"blog", "b"};
@@ -45,12 +50,17 @@ public class Helper {
         return;
     }
 
-    public void navigationBar(int currentPage){
+    /**
+     *
+     * sends activity to new activity
+     * @param currentPage The page number from left at bottom navigation bar
+     */
+    private void navigationBar(int currentPage){
         if(currentPage != 1){
             home.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(current, MainActivity.class);
+                    Intent intent = new Intent(current, Home.class);
                     current.startActivity(intent);
                 }
             });
@@ -68,7 +78,7 @@ public class Helper {
             blog.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(current, MainActivity.class);
+                    Intent intent = new Intent(current, Resources.class);
                     current.startActivity(intent);
                 }
             });

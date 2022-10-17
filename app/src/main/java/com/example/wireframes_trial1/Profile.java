@@ -21,9 +21,8 @@ public class Profile extends AppCompatActivity {
         ImageView profile = findViewById(R.id.profileIcon);
         TextView profileAlerts = findViewById(R.id.profileAlerts);
 
-        Helper startup = new Helper("home",this,home,resources,blog,profile);
+        Helper startup = new Helper("p",this,home,resources,blog,profile);
         profileAlerts.setText("");
-        startup.navigationBar("Home");
     }
 
     @Override

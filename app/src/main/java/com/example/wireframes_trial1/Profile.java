@@ -13,7 +13,7 @@ public class Profile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_profile_temp);
 
         ImageView home = findViewById(R.id.homeIcon);
         ImageView resources = findViewById(R.id.resourcesIcon);

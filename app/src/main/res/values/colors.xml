@@ -9,6 +9,8 @@
     <color name="black">#FF000000</color>
     <color name="addGreen">#FF11DD11</color>
     <color name="contentbg_grey">#FF7D7D7D</color>
+    <color name="profile_lvl_green">#FF00BB00</color>
+    <color name="profile_time_purple">#FF2D008C</color>
     <color name="profile_tile_header">#FF4B4B4B</color>
     <color name="profile_tile_inside">#FFD9D9D9</color>
 </resources>
